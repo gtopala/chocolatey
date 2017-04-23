@@ -1,0 +1,7 @@
+/build.cmd
+/md5.ps1
+*.nupkg
+*.template
+
+/readme.txt
+/push.cmd

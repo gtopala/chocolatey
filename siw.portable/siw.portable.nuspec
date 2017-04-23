@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>siw.portable</id>
+    <title>siw (Portable)</title>
+    <version>7.2.0.20170423</version>
+    <authors>Gabriel Topala</authors>
+    <owners>Gabriel Topala</owners>
+    <summary>SIW - System Information for Windows</summary>
+    <description>System Information for Windows - Everything you want to know about your computer
+
+#### Commercial software
+
+You can try SIW before you [buy](https://sites.fastspring.com/gtopala/instant/siwtechniciansversion1year).
+![screenshot](https://www.gtopala.com/img/siw-1200x600.png)
+</description>
+    <projectUrl>https://www.gtopala.com</projectUrl>
+    <packageSourceUrl>https://github.com/gtopala/chocolatey/tree/master/siw.portable</packageSourceUrl>
+    <!--
+	<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    -->
+    <mailingListUrl>https://www.gtopala.com/siw-news/subscribe.php</mailingListUrl>
+    <bugTrackerUrl>https://www.gtopala.com/forum/Forum-Bug-Reports</bugTrackerUrl>
+    <copyright>© 2005-2017 Gabriel Topala</copyright>
+    <tags>admin siw trial system-information hardware software network memory intel amd processor cpu motherboard</tags>
+    <licenseUrl>https://www.gtopala.com/tss/license-agreement.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://www.gtopala.com/img/siw-256x256.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>#### Program
+* [News](https://www.gtopala.com/forum/Forum-Announcements)
+* [Changelog](https://www.gtopala.com/siw/changelog.php)
+
+#### Package
+* Manually built and uploaded by [gtopala](https://chocolatey.org/profiles/gtopala)</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
