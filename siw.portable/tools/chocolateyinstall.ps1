@@ -1,7 +1,7 @@
 ﻿$packageName = 'siw.portable'
-$url = 'https://www.gtopala.net/download/siw_tech.zip'
+$url = 'https://gtopala.net/download/siw_tech.zip'
 $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$url64 = 'https://www.gtopala.net/download/siw_tech.zip'
+$url64 = 'https://gtopala.net/download/siw_tech.zip'
 $checksum      = 'BEF1A3222A9F55193090515DE475E2A8'
 $checksumType  = 'md5'
  
