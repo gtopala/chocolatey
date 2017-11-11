@@ -4,21 +4,17 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>siw.portable</id>
-    <title>siw (Portable)</title>
-    <version>7.7.1.20171029</version>
+    <title>[Deprecated] siw (Portable)</title>
+    <version>7.8.1.20171111</version>
     <authors>Gabriel Topala</authors>
     <owners>Gabriel Topala</owners>
     <summary>SIW - System Information for Windows</summary>
-    <description>System Information for Windows - Everything you want to know about your computer
-
-#### Commercial software
-
-You can try SIW before you [buy](https://sites.fastspring.com/gtopala/instant/siwtechniciansversion1year).
+    <description>Replaced by siw package
 ![screenshot](https://www.gtopala.com/img/siw-1200x600.png)
 </description>
     <projectUrl>https://www.gtopala.com</projectUrl>
-    <packageSourceUrl>https://github.com/gtopala/chocolatey/tree/master/siw.portable</packageSourceUrl>
     <!--
+    <packageSourceUrl>https://github.com/gtopala/chocolatey/tree/master/siw.portable</packageSourceUrl>
 	<projectSourceUrl></projectSourceUrl>
     <docsUrl></docsUrl>
     -->
@@ -28,11 +24,9 @@ You can try SIW before you [buy](https://sites.fastspring.com/gtopala/instant/si
     <tags>admin siw trial system-information hardware software network memory intel amd processor cpu motherboard</tags>
     <licenseUrl>https://www.gtopala.com/tss/license-agreement.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://www.gtopala.com/img/siw-256x256.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="__VERSION__" />
-      <dependency id="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="siw" version="7.8.1.20171111"/>
+    </dependencies>
     <releaseNotes>#### Program
 * [News](https://www.gtopala.com/forum/Forum-Announcements)
 * [Changelog](https://www.gtopala.com/siw/changelog.php)
@@ -41,7 +35,5 @@ You can try SIW before you [buy](https://sites.fastspring.com/gtopala/instant/si
 * Manually built and uploaded by [gtopala](https://chocolatey.org/profiles/gtopala)</releaseNotes>
     <!--<provides></provides>-->
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+  <files/>
 </package>
