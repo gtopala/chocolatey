@@ -4,8 +4,8 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'siw'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://gtopala.net/download/siw-setup.exe'
-$url64      = 'https://gtopala.net/download/siw-setup.exe'
+$url        = 'https://siw64.com/download/siwtrial-setup.exe'
+$url64      = 'https://siw64.com/download/siwtrial-setup.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -18,9 +18,9 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 
   softwareName  = 'siw*'
-  checksum      = '9C58CA94F849AD4213FF7A2156C3ACC6'
+  checksum      = 'BC9B447E96F130BFCE42F336BBC5B08B'
   checksumType  = 'md5'
-  checksum64    = '9C58CA94F849AD4213FF7A2156C3ACC6'
+  checksum64    = 'BC9B447E96F130BFCE42F336BBC5B08B'
   checksumType64= 'md5'
 }
 
