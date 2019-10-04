@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>siw</id>
     <title>siw (Install)</title>
-    <version>9.4.0.20191001</version>
+    <version>9.4.2.20191001</version>
     <authors>Gabriel Topala</authors>
     <owners>Gabriel Topala</owners>
     <summary>SIW - System Information for Windows</summary>
@@ -20,12 +20,12 @@ You can try SIW before you [buy](https://sites.fastspring.com/gtopala/instant/si
     <packageSourceUrl>https://github.com/gtopala/chocolatey/tree/master/siw</packageSourceUrl>
     <!--
 	<projectSourceUrl></projectSourceUrl>
-    <docsUrl></docsUrl>
     -->
+    <docsUrl>https://www.gtopala.com/</docsUrl>
     <mailingListUrl>https://www.gtopala.com/siw-news/subscribe.php</mailingListUrl>
     <bugTrackerUrl>https://www.gtopala.com/forum/Forum-Bug-Reports</bugTrackerUrl>
     <copyright>© 2005-2017 Gabriel Topala</copyright>
-    <tags>admin siw trial system-information hardware software network memory intel amd processor cpu motherboard</tags>
+    <tags>siw trial system-information hardware software network memory intel amd processor cpu motherboard</tags>
     <licenseUrl>https://www.gtopala.com/tss/license-agreement.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://www.gtopala.com/img/siw-256x256.png</iconUrl>

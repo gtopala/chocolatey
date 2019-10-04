@@ -1,3 +1,5 @@
+﻿$ErrorActionPreference = 'Stop';
+
 $packageName = 'siw'
 $packageSearch = "$packageName *"
 $installerType = 'exe'
