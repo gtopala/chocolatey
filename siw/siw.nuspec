@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>siw</id>
     <title>siw (Install)</title>
-    <version>10.2.5.20200322</version>
+    <version>10.2.6.20200322</version>
     <authors>Gabriel Topala</authors>
     <owners>Gabriel Topala</owners>
     <summary>SIW - System Information for Windows</summary>
@@ -24,7 +24,7 @@ You can try SIW before you [buy](https://sites.fastspring.com/gtopala/instant/si
     <docsUrl>https://www.gtopala.com/</docsUrl>
     <mailingListUrl>https://www.gtopala.com/siw-news/subscribe.php</mailingListUrl>
     <bugTrackerUrl>https://www.gtopala.com/forum/Forum-Bug-Reports</bugTrackerUrl>
-    <copyright>© 2005-2019 Gabriel Topala</copyright>
+    <copyright>© 2005-2020 Gabriel Topala</copyright>
     <tags>siw trial system-information hardware software network memory intel amd processor cpu motherboard</tags>
     <licenseUrl>https://www.gtopala.com/tss/license-agreement.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
