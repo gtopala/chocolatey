@@ -5,11 +5,11 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>siw</id>
     <title>siw (Install)</title>
-    <version>10.4.1.20200708</version>
+    <version>10.4.2.20200708</version>
     <authors>Gabriel Topala</authors>
     <owners>Gabriel Topala</owners>
     <summary>SIW - System Information for Windows</summary>
-    <description>System Information for Windows - Everything you want to know about your computer
+    <description>[System Information for Windows](https://www.gtopala.com/) - Everything you want to know about your computer
 
 #### Commercial software
 
