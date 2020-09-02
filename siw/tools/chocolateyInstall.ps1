@@ -18,9 +18,9 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 
   softwareName  = 'siw*'
-  checksum      = 'D3E673FD271AFDF7C856735BA765FD84'
+  checksum      = 'CC180C3644A7A0D2A2A6850AC575BD06'
   checksumType  = 'md5'
-  checksum64    = 'D3E673FD271AFDF7C856735BA765FD84'
+  checksum64    = 'CC180C3644A7A0D2A2A6850AC575BD06'
   checksumType64= 'md5'
 }
 
