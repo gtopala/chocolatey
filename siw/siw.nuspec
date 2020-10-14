@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>siw</id>
     <title>siw (Install)</title>
-    <version>10.6.0.20200915</version>
+    <version>10.6.1.20200915</version>
     <authors>Gabriel Topala</authors>
     <owners>Gabriel Topala</owners>
     <summary>SIW - System Information for Windows</summary>
@@ -14,7 +14,7 @@
 #### Commercial software
 
 You can try SIW before you [buy](https://sites.fastspring.com/gtopala/instant/siwtechniciansversion1year).
-![screenshot](https://www.gtopala.com/img/siw-1200x600.png)
+![screenshot](https://www.gtopala.com/img/siw-animated-1160x800.gif)
 </description>
     <projectUrl>https://www.gtopala.com</projectUrl>
     <packageSourceUrl>https://github.com/gtopala/chocolatey/tree/master/siw</packageSourceUrl>
