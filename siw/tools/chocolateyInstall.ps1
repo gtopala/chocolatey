@@ -18,10 +18,10 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 
   softwareName  = 'siw*'
-  checksum      = '5C7DD38D2C1D49D9929F77449400DE81'
-  checksumType  = 'md5'
-  checksum64    = '5C7DD38D2C1D49D9929F77449400DE81'
-  checksumType64= 'md5'
+  checksum      = '644A77711732C91627354E22F46A9246D6FA3F9125F3CA850F4725015485BDB1'
+  checksumType  = 'sha256'
+  checksum64    = '644A77711732C91627354E22F46A9246D6FA3F9125F3CA850F4725015485BDB1'
+  checksumType64= 'sha256'
 }
 
 Install-ChocolateyPackage @packageArgs
