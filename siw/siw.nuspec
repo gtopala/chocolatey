@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>siw</id>
     <title>siw (Install)</title>
-    <version>11.7.4.20211116</version>
+    <version>12.0.0.20220103</version>
     <authors>Gabriel Topala</authors>
     <owners>Gabriel Topala</owners>
     <summary>SIW - System Information for Windows</summary>
