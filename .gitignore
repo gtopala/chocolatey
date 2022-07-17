@@ -1,8 +1,7 @@
-/build.cmd
-/md5.ps1
+*.cmd
+*.ps1
 *.nupkg
 *.template
 
 /readme.txt
-/push.cmd
-/siw/push.cmd
+20*
